@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabajo JavaScript</title>
+</head>
+<body>
+    Seleccione:
+    <select id="color">
+        <option value="yellow">Amarillo</option>
+        <option value="blue">Azul</option>
+        <option value="red">Rojo</option>
+    </select>
+    <br><br>
+
+    <input type="button" value="Mostrar" onclick="mostrarColor()">
+    <br><br>
+
+    <div id="cuadroColor" style="width: 150px; height: 150px;"></div>
+    <br><br>
+
+    Seleccione:
+    <select id="imagen">
+        <option value="https://commons.wikimedia.org/wiki/Special:FilePath/Austin_A40_Roadster_ca_1951.jpg?width=300">Carro</option>
+        <option value="https://commons.wikimedia.org/wiki/Special:FilePath/Honda_VTX_1800_C_2007_-_center.jpg?width=300">Moto</option>
+        <option value="https://commons.wikimedia.org/wiki/Special:FilePath/Goe_Bicycles.jpg?width=300">Bicicleta</option>
+    </select>
+    <br><br>
+
+    <input type="button" value="Mostrar" onclick="mostrarImagen()">
+    <br><br>
+
+    <div id="cuadroImagen"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
